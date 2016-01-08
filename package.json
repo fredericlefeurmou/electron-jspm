@@ -1,0 +1,6 @@
+{
+  "name": "electron-jspm",
+  "jspm": {
+    "main": "index"
+  }
+}
