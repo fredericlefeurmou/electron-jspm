@@ -1,4 +1,4 @@
-let ipc = System._nodeRequire('ipc')
+let ipc = System._nodeRequire('electron').ipcRenderer
 let remote = System._nodeRequire('remote')
 let webFrame = System._nodeRequire('web-frame')
 
