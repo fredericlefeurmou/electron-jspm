@@ -1,14 +1,14 @@
-let ipc = System._nodeRequire('electron').ipcRenderer
-let remote = System._nodeRequire('remote')
-let webFrame = System._nodeRequire('web-frame')
+var ipc = System._nodeRequire('electron').ipcRenderer;
+var remote = System._nodeRequire('remote');
+var webFrame = System._nodeRequire('web-frame');
 
-let clipboard = System._nodeRequire('clipboard')
-let crashReporter = System._nodeRequire('crash-reporter')
-let nativeImage = System._nodeRequire('native-image')
-let electronScreen = System._nodeRequire('screen')
-let shell = System._nodeRequire('shell')
+var clipboard = System._nodeRequire('clipboard');
+var crashReporter = System._nodeRequire('crash-reporter');
+var nativeImage = System._nodeRequire('native-image');
+var electronScreen = System._nodeRequire('screen');
+var shell = System._nodeRequire('shell');
 
-export {
+module.exports = {
     ipc,
     remote,
     webFrame,
@@ -17,4 +17,4 @@ export {
     nativeImage,
     electronScreen,
     shell
-}
+};
