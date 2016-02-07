@@ -9,12 +9,12 @@ var electronScreen = System._nodeRequire('screen');
 var shell = System._nodeRequire('shell');
 
 module.exports = {
-    ipc,
-    remote,
-    webFrame,
-    clipboard,
-    crashReporter,
-    nativeImage,
-    electronScreen,
-    shell
+    ipc: ipc,
+    remote: remote,
+    webFrame: webFrame,
+    clipboard: clipboard,
+    crashReporter: crashReporter,
+    nativeImage: nativeImage,
+    electronScreen: electronScreen,
+    shell: shell
 };
